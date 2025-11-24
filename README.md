@@ -7,15 +7,15 @@ The dataset was scraped directly from ESPN Cricinfo using Power BI’s built-in 
 
 This project demonstrates:
 
-Web scraping cricket statistics using Power BI
+-Web scraping cricket statistics using Power BI
 
-Cleaning & transforming scraped HTML tables in Power Query
+-Cleaning & transforming scraped HTML tables in Power Query
 
-Classifying strike rates into performance categories
+-Classifying strike rates into performance categories
 
-Building dynamic visualizations in Power BI
+-Building dynamic visualizations in Power BI
 
-Creating a structured .pbix report suitable for analysis and presentation
+-Creating a structured .pbix report suitable for analysis and presentation
 
 The main report file is included:
 
@@ -40,12 +40,13 @@ https://stats.espncricinfo.com/ci/engine/stats/index.html
 
 Strike rate values (0–200) were grouped into:
 
-Category	Range
-Very Low	0–50
-Low	51–80
-Moderate	81–120
-High	121–150
-Very High	151–200
+| Category   | Range     |
+|------------|-----------|
+| Very Low   | 0–50      |
+| Low        | 51–80     |
+| Moderate   | 81–120    |
+| High       | 121–150   |
+| Very High  | 151–200   |
 
 These were used throughout the dashboard to segment and analyze player performance.
 
